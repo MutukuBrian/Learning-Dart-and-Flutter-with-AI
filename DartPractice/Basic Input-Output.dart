@@ -20,7 +20,7 @@ void main(){
         print("Hello $name, please enter a valid age number.");
         }
     }else{
-      print("Hello $name, please enter a value for age.");
+      print("Hello $name, please enter a value");
     }
     
     
