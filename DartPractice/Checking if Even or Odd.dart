@@ -2,6 +2,7 @@ import 'dart:core';
 import 'dart:io';
 
 
+//Ask the user for a number. Depending on whether the number is even or odd, print an appropriate message.
 
 void main(){
  print("Enter a number: ");

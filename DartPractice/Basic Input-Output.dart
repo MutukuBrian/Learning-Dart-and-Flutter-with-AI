@@ -1,7 +1,7 @@
 import 'dart:core';
 import 'dart:io';
 
-
+//Create a program that asks the user to enter their name and age. Print a message that tells how many years they have until they turn 100.
 void main(){
   print("what is your name? ");
   String? name= stdin.readLineSync();
