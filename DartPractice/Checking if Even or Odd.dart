@@ -11,12 +11,25 @@ void main(){
   if (input != null){
     try{
       int number = int.parse(input);
+      
+        //Checking the is Function
+        if (number is int){
+          print("Number is an integer");
+        }else{
+          print("Number is not an integer");
+        }
+
+        //Trying the ? Ternary operator
+        var result= number%2==0?'Even':'Odd';
+        print("Ternary operator: The answer is $result");
+
+        //If function
 
       if (number%2==0){
-          print("The number is even");
+          print("If Function: The number is Even");
                   
       }else{
-        print("The number is odd");
+        print("The number is Odd");
       }
 
 
