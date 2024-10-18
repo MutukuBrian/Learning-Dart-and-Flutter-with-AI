@@ -7,18 +7,20 @@ import 'dart:io';
 
 void main(){
 
-    List <int> numbers = [1,2,3,4,5,6,7,8,9];
+    List <int> numbers = [9,3,7,6,5,4,3,2,1];
+    List <int> result = [];
 
     for (int n in numbers){ 
-        var result = n%2==0?'Even':'Odd';
-
-            if (result=='Odd'){
-              print(n);
-            }
+        if (n<=5){
+          result.add(n);
+            print(result);
+          
+        }
 
     }
 
-
+    print("\nThe final list is $result\n");
+  
 
 
 
