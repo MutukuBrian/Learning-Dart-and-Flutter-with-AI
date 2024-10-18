@@ -5,7 +5,7 @@ import 'dart:io';
 //Ask the user for a number and determine whether the number is prime or not.
 void main() {
   stdout.write("Please give us a number: ");
-  int chosenNumber = int.parse(stdin.readLineSync());
+  int chosenNumber = int.parse(stdin.readLineSync()!);
 
   checkPrime(chosenNumber);
 }
