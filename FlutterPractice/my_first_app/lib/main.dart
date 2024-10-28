@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import "package:flutter/material.dart";
 
 void main() => runApp(MaterialApp(
 
@@ -23,12 +23,7 @@ class Home extends StatelessWidget{
           backgroundColor: Colors.red[600],
         ),
         body: Center(
-          child: Image(
-            image:AssetImage('assets/pals3.jpg')
-          ),
-
-
-
+          child: Image.asset('assets/pals3.jpg'),
 
 
         ),

@@ -1,5 +1,4 @@
 import 'dart:core';
-import 'dart:io';
 
 
 //Take two lists and write a program that returns a list containing only the elements that are common between them (without duplicates). 

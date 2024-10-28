@@ -14,12 +14,8 @@ void main(){
       int number = int.parse(input);
       
         //Checking the is Function
-        if (number is int){
-          print("Number is an integer");
-        }else{
-          print("Number is not an integer");
-        }
-
+        print("Number is an integer");
+      
         //Trying the ? Ternary operator
         var result= number%2==0?'Even':'Odd';
         print("Ternary operator: The answer is $result");

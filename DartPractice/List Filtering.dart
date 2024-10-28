@@ -1,5 +1,4 @@
 import 'dart:core';
-import 'dart:io';
 
 
 //Take a list of numbers and write a program that prints out all the elements that are less than 5.
