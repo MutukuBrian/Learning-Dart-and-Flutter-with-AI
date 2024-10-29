@@ -14,19 +14,22 @@ class Home extends StatelessWidget{
         appBar: AppBar(
           title: Text(
             'POV: I See the Boyz',
-            style: TextStyle(
-              fontFamily:'Atma',
-              color: Colors.white70,
-            ),//Textstyle
+            style: TextStyle(fontFamily:'Atma', color:Colors.white70),
           ),
           centerTitle: true,
           backgroundColor: Colors.red[600],
         ),
         body: Center(
-          child: Image.asset('assets/pals3.jpg'),
+          child: IconButton(
+            onPressed: () {
+              print("Button clicked!");
+            }, icon: Icon(Icons.alternate_email),
+            color: Colors.amber,
 
 
+          ),
         ),
+
         floatingActionButton: FloatingActionButton(
           onPressed: (){},
           child: Text("Gotea\nthem",
