@@ -13,32 +13,49 @@ class Home extends StatelessWidget{
       return  Scaffold(
         appBar: AppBar(
           title: Text(
-            'POV: I See the Boyz',
+            'POV: The Kid\'s Good',
             style: TextStyle(fontFamily:'Atma', color:Colors.white70),
           ),
           centerTitle: true,
           backgroundColor: Colors.red[600],
         ),
-        body: Column(
+        body: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.center,
           children:<Widget> [
-            Text("Hello Brian"),
-            Container(
+            Expanded(child: Image.asset('assets/pals2.jpg'),
+            flex: 7,
+            ),
+            Expanded(
+              flex: 2,
+              child: Container(
               color: Colors.cyan,
               margin: EdgeInsets.all(10.0),
               padding: EdgeInsets.all(20.0),
-              child: Text("This Container\n is Cool"),
+              child: Text("1"),
 
             ),
-            ElevatedButton(
-              onPressed: () {},
-              style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(Colors.amber),
-              ),
-              child: Text("This Button"),
-            )
+            ),
+            Expanded(
+              flex: 2,
+              child: Container(
+                color: Colors.pink,
+                margin: EdgeInsets.all(10.0),
+                padding: EdgeInsets.all(20.0),
+                child: Text("2"),
 
+              ),
+            ),
+            Expanded(
+              flex: 2,
+              child: Container(
+                color: Colors.amber,
+                margin: EdgeInsets.all(10.0),
+                padding: EdgeInsets.all(20.0),
+                child: Text("3"),
+
+              ),
+            ),
 
           ],
 
