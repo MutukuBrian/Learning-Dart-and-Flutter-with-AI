@@ -19,15 +19,15 @@ class Home extends StatelessWidget{
           centerTitle: true,
           backgroundColor: Colors.red[600],
         ),
-        body: Center(
-          child: IconButton(
-            onPressed: () {
-              print("Button clicked!");
-            }, icon: Icon(Icons.alternate_email),
-            color: Colors.amber,
+        body: Container(
+          color: Colors.grey[400],
+          child: Text("Hello Yobra"),
+          padding: EdgeInsets.fromLTRB(10.0, 20.0, 30.0, 40.0),
+          margin: EdgeInsets.all(30.0),
+          
 
 
-          ),
+
         ),
 
         floatingActionButton: FloatingActionButton(
