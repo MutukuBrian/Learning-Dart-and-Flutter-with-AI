@@ -19,9 +19,27 @@ class Home extends StatelessWidget{
           centerTitle: true,
           backgroundColor: Colors.red[600],
         ),
-        body: Padding(
-          child: Text("Hello Yobra"),
-          padding: EdgeInsets.fromLTRB(10.0, 20.0, 30.0, 40.0),
+        body: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children:<Widget> [
+            Text("Hello Brian"),
+            ElevatedButton(
+              onPressed: () {},
+              style: ButtonStyle(
+                backgroundColor: MaterialStateProperty.all(Colors.amber),
+              ),
+              child: Text("This Button"),
+            ),
+            Container(
+              color: Colors.cyan,
+              padding: EdgeInsets.all(30.0),
+              child: Text("This Container"),
+              
+            )
+
+
+          ],
 
 
 
